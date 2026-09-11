@@ -101,4 +101,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+    type: git
+    repo: git@github.com:BTXL11/BTXL11.github.io.git  #这里的网址填你自己的
+    branch: master
