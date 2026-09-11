@@ -28,7 +28,9 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+## 开启后，source/_posts/<文章名>/ 里的图片附件会被拷到该文章的链接目录下，
+## 文章里用相对路径引用即可，例如 ![](xxx.jpg)
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -58,6 +60,22 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
+
+# Markdown
+## postAsset: true 让文章里 ![](xxx.jpg) 这样的相对图片路径能自动解析到该文章的附件目录
+## （配合上面的 post_asset_folder: true 使用）
+marked:
+  postAsset: true
+
+# Search
+## Meow 主题的本地搜索依赖 hexo-generator-searchdb，主题会在页面里读取下面的 path
+## Docs: https://github.com/next-theme/hexo-generator-searchdb
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
+
 theme: meow
 deploy:
   type: git
