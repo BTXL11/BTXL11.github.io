@@ -63,4 +63,3 @@ deploy:
   type: git
   repo: git@github.com:BTXL11/BTXL11.github.io.git
   branch: main
-language: zh-CN
