@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="author" content="BTXL"/><meta name="copyright" content="BTXL"/><meta name="theme-color" content="#FFB347"/><meta name="format-detection" content="telephone=no"/><meta name="keywords" content="实变函数,数学"/><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-touch-fullscreen" content="yes"/><meta name="application-name" content="实变函数 | BTXL's Blog"/><meta name="apple-mobile-web-app-title" content="实变函数 | BTXL's Blog"/><meta name="apple-mobile-web-app-status-bar-style" content="#FFB347"/><link rel="canonical" href="http://BTXL11.github.io/2026/09/11/实变函数/"/><meta name="description" content="实变函数留言板 开始填坑 这篇文档是针对理学院数学基地班的实变函数课程，教材是侯友亮、王茂发编著的黄色的那本。 就到目前学这门课，确实是很难学。主要是非常的抽象，除了概念题，几乎所有题目都是证明题，很少有计算题。 根据上课期间两次测试感觉，考试的重点应该是基础概念。 预测考试题型是5-10道选择题，5-10道填空题，5-10道判断题、5-10道概念题、4 5道大题。 复习资料第一节复习课的内...">
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="author" content="BTXL"/><meta name="copyright" content="BTXL"/><meta name="theme-color" content="#FFB347"/><meta name="format-detection" content="telephone=no"/><meta name="keywords" content="数学,实变函数"/><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-touch-fullscreen" content="yes"/><meta name="application-name" content="实变函数 | BTXL's Blog"/><meta name="apple-mobile-web-app-title" content="实变函数 | BTXL's Blog"/><meta name="apple-mobile-web-app-status-bar-style" content="#FFB347"/><link rel="canonical" href="http://BTXL11.github.io/2026/09/11/实变函数/"/><meta name="description" content="实变函数留言板 开始填坑 这篇文档是针对理学院数学基地班的实变函数课程，教材是侯友亮、王茂发编著的黄色的那本。 就到目前学这门课，确实是很难学。主要是非常的抽象，除了概念题，几乎所有题目都是证明题，很少有计算题。 根据上课期间两次测试感觉，考试的重点应该是基础概念。 预测考试题型是5-10道选择题，5-10道填空题，5-10道判断题、5-10道概念题、4 5道大题。 复习资料第一节复习课的内...">
 <meta property="og:type" content="article">
 <meta property="og:title" content="实变函数 | BTXL&#39;s Blog">
 <meta property="og:url" content="http://btxl11.github.io/2026/09/11/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0/index.html">
@@ -38,28 +38,28 @@
 <h2 id="基础概念"><a href="#基础概念" class="headerlink" title="基础概念"></a>基础概念</h2><p>由于实变函数的基础概念实在是太多了，这里只给出重点部分。</p>
 <h3 id="第一章：集合与点集"><a href="#第一章：集合与点集" class="headerlink" title="第一章：集合与点集"></a>第一章：集合与点集</h3><p><em><strong>集合的交并差补运算：不多赘述</strong></em></p>
 <p><strong>集合的上下极限：</strong></p>
-<p>设 ${ A_n}$是个集列</p>
-<p>$\varlimsup_{n\to\infty}{A_n} \overset{def}  {&#x3D;} \bigcap^{\infty}<em>{n&#x3D;1} \bigcup ^{\infty}</em>{k&#x3D;n}A_k$</p>
-<p>$\varliminf_{n\to\infty} A_n\overset{def}{&#x3D;} \bigcup^{\infty}<em>{n&#x3D;1} \bigcap^{\infty}</em>{k&#x3D;n}A_k$</p>
+<p>设 $&#92;&#123; A&#95;n&#92;&#125;$是个集列</p>
+<p>$&#92;varlimsup&#95;&#123;n&#92;to&#92;infty&#125;&#123;A&#95;n&#125; &#92;overset&#123;def&#125;  &#123;&#x3D;&#125; &#92;bigcap^&#123;&#92;infty&#125;&#95;&#123;n&#x3D;1&#125; &#92;bigcup ^&#123;&#92;infty&#125;&#95;&#123;k&#x3D;n&#125;A&#95;k$</p>
+<p>$&#92;varliminf&#95;&#123;n&#92;to&#92;infty&#125; A&#95;n&#92;overset&#123;def&#125;&#123;&#x3D;&#125; &#92;bigcup^&#123;&#92;infty&#125;&#95;&#123;n&#x3D;1&#125; &#92;bigcap^&#123;&#92;infty&#125;&#95;&#123;k&#x3D;n&#125;A&#95;k$</p>
 <p>或：</p>
-<p>$\varlimsup_{n\to \infty} A_n &#x3D; { x: x属于{ A_n}中的无限多个} （频繁出现的元素）$</p>
-<p>$\varliminf_{n \to \infty} A_n &#x3D; {x:x至多不属于{A_n}中的有限多个}（最终出现的元素）$</p>
+<p>$&#92;varlimsup&#95;&#123;n&#92;to &#92;infty&#125; A&#95;n &#x3D; &#92;&#123; x: x属于&#92;&#123; A&#95;n&#92;&#125;中的无限多个&#92;&#125; （频繁出现的元素）$</p>
+<p>$&#92;varliminf&#95;&#123;n &#92;to &#92;infty&#125; A&#95;n &#x3D; &#92;&#123;x:x至多不属于&#92;&#123;A&#95;n&#92;&#125;中的有限多个&#92;&#125;（最终出现的元素）$</p>
 <p><strong>对等：</strong></p>
-<p>设A，B是两个非空集，若存在一个从A到B的双射，则称A与B是对等的，记为 $A \backsim B$,此外补充定义 $\phi \backsim \phi$</p>
+<p>设A，B是两个非空集，若存在一个从A到B的双射，则称A与B是对等的，记为 $A &#92;backsim B$,此外补充定义 $&#92;phi &#92;backsim &#92;phi$</p>
 <p><strong>基数：</strong></p>
-<p>设A和B是两个集，如果A~B，则称A和B具有相同的基数，集A的基数记为 $\overset{&#x3D;}{A}$。</p>
-<p>自然数集N的基数用符号 $\aleph_0$(读作“阿列夫零”)表示，也可以用字母 $a$表示。</p>
-<p>实数集 $R^1$的基数用符号 $\aleph$表示，也可以用字母 $c$表示。</p>
-<p>**定义：**设A和B是两个集，若A与B的一个子集对等，则称A的基数小于或等于B的基数，记为 $\overset{&#x3D;}{A} \le \overset{&#x3D;}{B}$.若A与B的一个真子集对等但与B本身不对等，则称A的基数小于B的基数，记为 $\overset{&#x3D;}{A}&lt; \overset{&#x3D;}{B}$</p>
-<p>**定理：**若A是无限集，则 $\aleph_0  \le \overset{&#x3D;}{A}$,即可列集的基数是无限集基数中的最小的一个</p>
-<p>**定理：**若A是无限集，B是有限或可列集，则 $\overline{\overline{A \bigcup B}}&#x3D; \overline{\overline{A}}$</p>
-<p>**定理：**设A，B是两个集，若A与B的一个子集对等，且B与A的一个子集对等，则A与B对等，用基数表示就是：若 $\overline{\overline{A}} \le \overline{\overline{B}}$且 $\overline{\overline{B}} \le \overline{\overline{A}}$则 $\overline{\overline{A}} &#x3D; \overline{\overline{B}}$</p>
+<p>设A和B是两个集，如果A~B，则称A和B具有相同的基数，集A的基数记为 $&#92;overset&#123;&#x3D;&#125;&#123;A&#125;$。</p>
+<p>自然数集N的基数用符号 $&#92;aleph&#95;0$(读作“阿列夫零”)表示，也可以用字母 $a$表示。</p>
+<p>实数集 $R^1$的基数用符号 $&#92;aleph$表示，也可以用字母 $c$表示。</p>
+<p>**定义：**设A和B是两个集，若A与B的一个子集对等，则称A的基数小于或等于B的基数，记为 $&#92;overset&#123;&#x3D;&#125;&#123;A&#125; &#92;le &#92;overset&#123;&#x3D;&#125;&#123;B&#125;$.若A与B的一个真子集对等但与B本身不对等，则称A的基数小于B的基数，记为 $&#92;overset&#123;&#x3D;&#125;&#123;A&#125;&lt; &#92;overset&#123;&#x3D;&#125;&#123;B&#125;$</p>
+<p>**定理：**若A是无限集，则 $&#92;aleph&#95;0  &#92;le &#92;overset&#123;&#x3D;&#125;&#123;A&#125;$,即可列集的基数是无限集基数中的最小的一个</p>
+<p>**定理：**若A是无限集，B是有限或可列集，则 $&#92;overline&#123;&#92;overline&#123;A &#92;bigcup B&#125;&#125;&#x3D; &#92;overline&#123;&#92;overline&#123;A&#125;&#125;$</p>
+<p>**定理：**设A，B是两个集，若A与B的一个子集对等，且B与A的一个子集对等，则A与B对等，用基数表示就是：若 $&#92;overline&#123;&#92;overline&#123;A&#125;&#125; &#92;le &#92;overline&#123;&#92;overline&#123;B&#125;&#125;$且 $&#92;overline&#123;&#92;overline&#123;B&#125;&#125; &#92;le &#92;overline&#123;&#92;overline&#123;A&#125;&#125;$则 $&#92;overline&#123;&#92;overline&#123;A&#125;&#125; &#x3D; &#92;overline&#123;&#92;overline&#123;B&#125;&#125;$</p>
 <p><strong>可数集(countable set)&#x2F;可列集(denumerable set&#x2F;countable infinite set)</strong></p>
 <p>**注：**有限集与可列集统称为可数集。</p>
 <p>可列集一定是无限的，能排成无穷序列的：可数集&#x3D;可列集+有限集。</p>
 <p><strong>可列集：与自然数N对等的集称为可列集</strong></p>
-<p>**定理：**集A是可列集的充要条件是A的元素可以编号排序成为一个无穷序列 $A&#x3D;{a_1,a_2,\dots,a_n,\dots }.$</p>
-<p>可列集，基数为a或 $\aleph_0$的集包括：</p>
+<p>**定理：**集A是可列集的充要条件是A的元素可以编号排序成为一个无穷序列 $A&#x3D;&#92;&#123;a&#95;1,a&#95;2,&#92;dots,a&#95;n,&#92;dots &#92;&#125;.$</p>
+<p>可列集，基数为a或 $&#92;aleph&#95;0$的集包括：</p>
 <ol>
 <li><p>可列集的任何无限子集</p>
 </li>
@@ -67,28 +67,28 @@
 </li>
 <li><p>有限个可列集的并和一列可列集的并</p>
 </li>
-<li><p>若 $A_1,A_2 \dots ,A_n$都是可列集，则它们的直积 $A_1\times A_2 \times\dots\times A_n$也是可列集</p>
+<li><p>若 $A&#95;1,A&#95;2 &#92;dots ,A&#95;n$都是可列集，则它们的直积 $A&#95;1&#92;times A&#95;2 &#92;times&#92;dots&#92;times A&#95;n$也是可列集</p>
 </li>
-<li><p>设 $I_1,I_{2}, \dots,I_n$是n个可列集，A是以 $I_1\times I_2 \times \dots \times I_n$中的元为下标的元的全体，即</p>
+<li><p>设 $I&#95;1,I&#95;&#123;2&#125;, &#92;dots,I&#95;n$是n个可列集，A是以 $I&#95;1&#92;times I&#95;2 &#92;times &#92;dots &#92;times I&#95;n$中的元为下标的元的全体，即</p>
 </li>
 </ol>
-<p>$A &#x3D; {a_{i_1,i_2,\dots i_n} : i_1 \in I_1,i_2 \in I_2 \dots i_n \in I_n}$,</p>
+<p>$A &#x3D; &#92;&#123;a&#95;&#123;i&#95;1,i&#95;2,&#92;dots i&#95;n&#125; : i&#95;1 &#92;in I&#95;1,i&#95;2 &#92;in I&#95;2 &#92;dots i&#95;n &#92;in I&#95;n&#92;&#125;$,</p>
 <p>则A是可列集</p>
 <ol start="6">
 <li><p>有理数集Q</p>
 </li>
-<li><p>$R^n$中的有理点（即坐标全为有理数的点）的全体所成的集： $Q^n &#x3D; \underbrace {Q \times Q \times \dots \times Q }_{n}$</p>
+<li><p>$R^n$中的有理点（即坐标全为有理数的点）的全体所成的集： $Q^n &#x3D; &#92;underbrace &#123;Q &#92;times Q &#92;times &#92;dots &#92;times Q &#125;&#95;&#123;n&#125;$</p>
 </li>
 <li><p>整系数多项式的全体是可列集</p>
 </li>
 <li><p>代数数集是可列集</p>
 </li>
-<li><p>设 $A &#x3D;{ I_{\alpha}}$是直线上一些互不相交的开区间所成的集，则A是可数集</p>
+<li><p>设 $A &#x3D;&#92;&#123; I&#95;&#123;&#92;alpha&#125;&#92;&#125;$是直线上一些互不相交的开区间所成的集，则A是可数集</p>
 </li>
 <li><p>单调函数的间断点的全体是可数集</p>
 </li>
 </ol>
-<p>**基数为c或 **$\aleph$<strong>的集</strong></p>
+<p>**基数为c或 **$&#92;aleph$<strong>的集</strong></p>
 <ol>
 <li><p>无理数集</p>
 </li>
@@ -98,60 +98,60 @@
 </li>
 <li><p>若X是一可列集，则X的幂集 $P(X)$</p>
 </li>
-<li><p>$R^n$和$R^{\infty}$</p>
+<li><p>$R^n$和$R^&#123;&#92;infty&#125;$</p>
 </li>
 <li><p>C[a,b]是[a,b]上的连续函数的全体</p>
 </li>
 </ol>
-<p><strong>集类、代数、 <strong>$\sigma $</strong>-代数都是集合的集合。</strong></p>
+<p><strong>集类、代数、 <strong>$&#92;sigma $</strong>-代数都是集合的集合。</strong></p>
 <p>集类：无强制封闭性</p>
 <p>代数：有限次并交补差封闭，可列次并交补差不封闭</p>
-<p>$\sigma$-代数：有限次并交补差封闭，可列次并交补差也封闭</p>
-<p>**定义：<strong>设A是X上的一个集类，若</strong> **$\phi \in A$且A对并运算与余&#x2F;补运算封闭，则称A为代数</p>
+<p>$&#92;sigma$-代数：有限次并交补差封闭，可列次并交补差也封闭</p>
+<p>**定义：<strong>设A是X上的一个集类，若</strong> **$&#92;phi &#92;in A$且A对并运算与余&#x2F;补运算封闭，则称A为代数</p>
 <p>**定理：**设A是X上 的一个集类，则</p>
-<p>（1）若 $\phi \in A$且A对交运算和余运算封闭，则A是代数</p>
+<p>（1）若 $&#92;phi &#92;in A$且A对交运算和余运算封闭，则A是代数</p>
 <p>（2）若A是一个代数，则A对交运算和差运算封闭</p>
-<p>**定义：**设F是X上的一个集类，若 $\phi \in F$，且F对可列并和余运算封闭，则称F为 $\sigma$代数</p>
-<p>定理：设F是一个 $\sigma$代数，则</p>
+<p>**定义：**设F是X上的一个集类，若 $&#92;phi &#92;in F$，且F对可列并和余运算封闭，则称F为 $&#92;sigma$代数</p>
+<p>定理：设F是一个 $&#92;sigma$代数，则</p>
 <p>（1）F是代数</p>
 <p>（2）F对并运算、交运算、差运算、和可列并运算封闭。</p>
-<p>***设A是 ***$R^n$***的子集， ***$x \in A$</p>
-<p>**内点:**若存在x的一个邻域 $ \bigcup (x, \epsilon) \subset A$则称x为A的内点</p>
+<p>***设A是 ***$R^n$***的子集， ***$x &#92;in A$</p>
+<p>**内点:**若存在x的一个邻域 $ &#92;bigcup (x, &#92;epsilon) &#92;subset A$则称x为A的内点</p>
 <p><strong>等价表示：</strong></p>
-<p>（1）x属于A内部的 $\mathring{A}$(见下述)</p>
-<p>（2）$\exist r&gt;0, \bigcup (x) \subset A$</p>
+<p>（1）x属于A内部的 $&#92;mathring&#123;A&#125;$(见下述)</p>
+<p>（2）$&#92;exist r&gt;0, &#92;bigcup (x) &#92;subset A$</p>
 <p>（3）x不是 $E^c$的边界点，也不是 $E^c$的聚点</p>
-<p>**内核：**由A的内点的全体所成的集称为A的内核，记为 $\mathring{A}$</p>
+<p>**内核：**由A的内点的全体所成的集称为A的内核，记为 $&#92;mathring&#123;A&#125;$</p>
 <p>**开集：**若A中的每一个点都是A的内点，则称A为开集。</p>
 <p><strong>开集的性质：</strong></p>
-<p>（1）空集 $\phi$和全空间 $R^n$是开集</p>
+<p>（1）空集 $&#92;phi$和全空间 $R^n$是开集</p>
 <p>（2）任意个开集的并是开集</p>
 <p>（3）有限个开集的交集是开集</p>
 <p>（4）注意：无限个开集的交集不一定是开集</p>
-<p>**聚点：**若对任意 $\epsilon &gt;0$, $\bigcup(x,\epsilon)$中含有A中的无限多个点，则称x为A的聚点</p>
+<p>**聚点：**若对任意 $&#92;epsilon &gt;0$, $&#92;bigcup(x,&#92;epsilon)$中含有A中的无限多个点，则称x为A的聚点</p>
 <p><strong>等价表示：</strong></p>
-<p>（1） $x \in \mathring{E^c}$</p>
-<p>(2) $\exist r&gt;0,B(x,r) \cap E&#x3D; \phi$</p>
+<p>（1） $x &#92;in &#92;mathring&#123;E^c&#125;$</p>
+<p>(2) $&#92;exist r&gt;0,B(x,r) &#92;cap E&#x3D; &#92;phi$</p>
 <p>(4) x既不是A的内点，也不是A的边界点</p>
 <p>**导集：**由A的聚点的全体所组成的集称为A的导集，记为 A’</p>
 <p><strong>等价表示：</strong></p>
-<p>（1） $x \in A’$</p>
-<p>(2) 对任意 $\epsilon &gt;0$,x的去心邻域 $\bigcup(x,\epsilon)-{x}$包含A中的点</p>
-<p>（3）存在A中的点列 ${x_k}$,使得每个 $x_k \not&#x3D; x$并且 $x_k \rightarrow x$</p>
-<p>**闭包：**集 $A \cup A’$称为A的闭包，记为  $\overline{A}$</p>
+<p>（1） $x &#92;in A’$</p>
+<p>(2) 对任意 $&#92;epsilon &gt;0$,x的去心邻域 $&#92;bigcup(x,&#92;epsilon)-&#92;&#123;x&#92;&#125;$包含A中的点</p>
+<p>（3）存在A中的点列 $&#92;&#123;x&#95;k&#92;&#125;$,使得每个 $x&#95;k &#92;not&#x3D; x$并且 $x&#95;k &#92;rightarrow x$</p>
+<p>**闭包：**集 $A &#92;cup A’$称为A的闭包，记为  $&#92;overline&#123;A&#125;$</p>
 <p><strong>等价表示：</strong></p>
-<p>（1） $x \in  \overline{A}$</p>
-<p>(2)  对任意 $\epsilon &gt;0$, $\bigcup(x, \epsilon)$包含A中的点</p>
-<p>（3）存在A中的点列 ${x_k}$使得 $x_k \rightarrow x$</p>
-<p><strong>闭集 ：</strong>$A’ \subset A$，则称A为闭集。</p>
+<p>（1） $x &#92;in  &#92;overline&#123;A&#125;$</p>
+<p>(2)  对任意 $&#92;epsilon &gt;0$, $&#92;bigcup(x, &#92;epsilon)$包含A中的点</p>
+<p>（3）存在A中的点列 $&#92;&#123;x&#95;k&#92;&#125;$使得 $x&#95;k &#92;rightarrow x$</p>
+<p><strong>闭集 ：</strong>$A’ &#92;subset A$，则称A为闭集。</p>
 <p>**等价于：**A中的任意收敛点列的极限属于A</p>
 <p><strong>闭集的性质：</strong></p>
-<p>（1）空集$\phi$和全集 $R^n$是闭集</p>
+<p>（1）空集$&#92;phi$和全集 $R^n$是闭集</p>
 <p>（2）有限个闭集的并集是闭集</p>
 <p>（3）任意个闭集的交集是闭集</p>
 <p>（4）注意：无限个闭集的并集不一定是闭集</p>
 <p><strong>Borel集：</strong></p>
-<p>**定义：**设 $\varrho$是 $R^n$中开集的全体所成的集类，称由 $\varrho$生成的 $\sigma$-代数为 $\sigma(\varrho)$为 $R^n$中的 Borel $\sigma$-代数，记为 $ \beta(R^n)$. Borel $\sigma$-代数中的集称为 Borel集。</p>
+<p>**定义：**设 $&#92;varrho$是 $R^n$中开集的全体所成的集类，称由 $&#92;varrho$生成的 $&#92;sigma$-代数为 $&#92;sigma(&#92;varrho)$为 $R^n$中的 Borel $&#92;sigma$-代数，记为 $ &#92;beta(R^n)$. Borel $&#92;sigma$-代数中的集称为 Borel集。</p>
 <p><strong>定理：</strong> $R^n$中的开集、闭集、可数集、各种类型的方体都是Borel集。</p>
 <p><strong>Cantor三分集：书p40</strong></p>
 <p><strong>性质：</strong></p>
@@ -161,84 +161,84 @@
 <p>（4）Cantor集的邻接开区间的长度之和为1</p>
 <p>（5）Cantor集具有连续基数c</p>
 <h3 id="第二章：Lebesgue测度"><a href="#第二章：Lebesgue测度" class="headerlink" title="第二章：Lebesgue测度"></a>第二章：Lebesgue测度</h3><h4 id="外测度"><a href="#外测度" class="headerlink" title="外测度"></a><strong>外测度</strong></h4><p>**定义：**设A是 $R^n$的子集，令</p>
-<p>$m^*(A) &#x3D;inf{ \overset{ \infty } {\sum_{k&#x3D;1}{|I_k|:{I_k}是A的开方体覆盖}}  }$</p>
+<p>$m^&#42;(A) &#x3D;inf&#92;&#123; &#92;overset&#123; &#92;infty &#125; &#123;&#92;sum&#95;&#123;k&#x3D;1&#125;&#123;&#124;I&#95;k&#124;:&#92;&#123;I&#95;k&#92;&#125;是A的开方体覆盖&#125;&#125;  &#92;&#125;$</p>
 <p>称m*(A)为A的Lebesgue外测度，简称为外测度。</p>
 <p><strong>外测度的性质：</strong></p>
-<p>（1） $m^*( \phi)&#x3D;0$</p>
-<p>(2) 单调性：若 $A \subset B$，则 $m^<em>(A) \le m^</em>(B)$</p>
-<p>(3) 次可列可加性： 对 $R^n$中的任意一列集 ${A_n}$有 $m^<em>( \overset{ \infty}{\bigcup_{k&#x3D;1}} A_k ) \le \sum_{k&#x3D;1}^{ \infty}{m^</em>(A_k)}$</p>
-<p>(4) 平移不变性：设 $E \subset R^n$,则对任意 $x_0 \in R^n$有 $m^<em>(x_0+E)&#x3D;m^</em>(E)$,其中 $x_0+E &#x3D;{x_0+x:x \in E}$</p>
+<p>（1） $m^&#42;( &#92;phi)&#x3D;0$</p>
+<p>(2) 单调性：若 $A &#92;subset B$，则 $m^&#42;(A) &#92;le m^&#42;(B)$</p>
+<p>(3) 次可列可加性： 对 $R^n$中的任意一列集 $&#92;&#123;A&#95;n&#92;&#125;$有 $m^&#42;( &#92;overset&#123; &#92;infty&#125;&#123;&#92;bigcup&#95;&#123;k&#x3D;1&#125;&#125; A&#95;k ) &#92;le &#92;sum&#95;&#123;k&#x3D;1&#125;^&#123; &#92;infty&#125;&#123;m^&#42;(A&#95;k)&#125;$</p>
+<p>(4) 平移不变性：设 $E &#92;subset R^n$,则对任意 $x&#95;0 &#92;in R^n$有 $m^&#42;(x&#95;0+E)&#x3D;m^&#42;(E)$,其中 $x&#95;0+E &#x3D;&#92;&#123;x&#95;0+x:x &#92;in E&#92;&#125;$</p>
 <p>(5)若A是 $R^n$中的可数集，则 m*(A)&#x3D;0</p>
 <p>(6)m*(Q)&#x3D;0</p>
-<p>(7)若I是 $R^n$中的方体，则 $m^*(I)&#x3D;|I|$</p>
-<p>(8)设 $E \subset R^n$，则对任意实数a有， $m^<em>(aE) &#x3D; |a|^n m^</em>(E)$，其中 $aE &#x3D; {ax:x \in E}$</p>
-<h4 id="可测集"><a href="#可测集" class="headerlink" title="可测集"></a><strong>可测集</strong></h4><p>*<em>定义：*<em>设E是 $R^n$的子集，若对任意的 $A \subset R^n$， $m^</em>(A) &#x3D; m ^* (A \cap E)+m^</em>(A \cap E^c)$则称E为Lebesgue可测集.(或满足 $m^<em>(A) \ge m ^</em> (A \cap E)+m^*(A \cap E^c)$)</p>
+<p>(7)若I是 $R^n$中的方体，则 $m^&#42;(I)&#x3D;&#124;I&#124;$</p>
+<p>(8)设 $E &#92;subset R^n$，则对任意实数a有， $m^&#42;(aE) &#x3D; &#124;a&#124;^n m^&#42;(E)$，其中 $aE &#x3D; &#92;&#123;ax:x &#92;in E&#92;&#125;$</p>
+<h4 id="可测集"><a href="#可测集" class="headerlink" title="可测集"></a><strong>可测集</strong></h4><p>**定义：**设E是 $R^n$的子集，若对任意的 $A &#92;subset R^n$， $m^&#42;(A) &#x3D; m ^&#42; (A &#92;cap E)+m^&#42;(A &#92;cap E^c)$则称E为Lebesgue可测集.(或满足 $m^&#42;(A) &#92;ge m ^&#42; (A &#92;cap E)+m^&#42;(A &#92;cap E^c)$)</p>
 <p><strong>可测集的一些性质：</strong></p>
 <p>（1）外测度为零的集是可测集</p>
 <p>（2）零测度集的子集也是可测集</p>
 <p>（3）可数集是可测集，并且测度为零</p>
-<p>（4） $R^n$中的每个方体I都是都是可测集，并且 $m(I)&#x3D;|I|$</p>
-<p>(5)若 $E_1，E_2,\dots,E_k$是可测集，则 $ \bigcup^{k}_{i&#x3D;1}{E_i}$是可测集</p>
-<p>(6)若 $E_1，E_2,\dots,E_k$是互不相交的可测集， $A_i \subset E_i(i&#x3D;1,2,\dots,k)$，则</p>
-<p>$m^<em>(\bigcup_{i&#x3D;1}^{k}A_i)&#x3D; \sum_{i&#x3D;1}^{k}{m^</em>(A_i)}$</p>
-<p>(7)可测集的全体 $M(R^n )$是一个 $\sigma$-代数</p>
-<p>(8)每个Borel集都是可测集，即 $B(R^n) \subset M(R^n)$</p>
-<h4 id="测度"><a href="#测度" class="headerlink" title="测度"></a><strong>测度</strong></h4><p>**定义：*<em>若E是Lebesgue可测集，则称 $m^</em>(E)$为E的Lebesgue测度，记为m(E)</p>
+<p>（4） $R^n$中的每个方体I都是都是可测集，并且 $m(I)&#x3D;&#124;I&#124;$</p>
+<p>(5)若 $E&#95;1，E&#95;2,&#92;dots,E&#95;k$是可测集，则 $ &#92;bigcup^&#123;k&#125;&#95;&#123;i&#x3D;1&#125;&#123;E&#95;i&#125;$是可测集</p>
+<p>(6)若 $E&#95;1，E&#95;2,&#92;dots,E&#95;k$是互不相交的可测集， $A&#95;i &#92;subset E&#95;i(i&#x3D;1,2,&#92;dots,k)$，则</p>
+<p>$m^&#42;(&#92;bigcup&#95;&#123;i&#x3D;1&#125;^&#123;k&#125;A&#95;i)&#x3D; &#92;sum&#95;&#123;i&#x3D;1&#125;^&#123;k&#125;&#123;m^&#42;(A&#95;i)&#125;$</p>
+<p>(7)可测集的全体 $M(R^n )$是一个 $&#92;sigma$-代数</p>
+<p>(8)每个Borel集都是可测集，即 $B(R^n) &#92;subset M(R^n)$</p>
+<h4 id="测度"><a href="#测度" class="headerlink" title="测度"></a><strong>测度</strong></h4><p>**定义：**若E是Lebesgue可测集，则称 $m^&#42;(E)$为E的Lebesgue测度，记为m(E)</p>
 <p><strong>可测集的一些性质：</strong></p>
-<p>(1)有限可加性：若 $A_1,A_2,\dots,A_k$是互不相交的可测集，则 $m(\bigcup_{i&#x3D;1}^{k}A_i)&#x3D; \sum_{i&#x3D;1}^{k}{m(A_i)}$</p>
-<p>(2)可减性：若A，B是可测集， $A\sub b$并且 $m(A) &lt; \infty$，则 $m(B-A) &#x3D;m(B)-m(A)$</p>
-<p>(3)可列可加性：若 ${A_k}$是一列互不相交的可测集，则 $m(\bigcup_{i&#x3D;1}^{\infty}A_i)&#x3D; \sum_{i&#x3D;1}^{\infty}{m(A_i)}$ </p>
-<p>(4)下连续性：若 ${A_k}$是一列单调递增的可测集，则 $m( \bigcup^{\infty}_{k&#x3D;1}{A_k})&#x3D; \lim _{k \rightarrow\infty}m(A_k)$</p>
-<p>(5)上连续性：若 ${A_k}$是一列单调递减的可测集，并且 $m(A_1)&lt; \infty$，则 $m( \bigcap^{\infty}_{k&#x3D;1}{A_k})&#x3D; \lim _{k \rightarrow\infty}m(A_k)$</p>
-<p>(6)平移不变性：设E是 $R^n$中的可测集， $x_0 \in R^n$，则 $x_0 +E$是可测集并且 $m(x_0+E)&#x3D;m(E)$</p>
-<p>(7)设E是 $R^n$中的可测集，a是实数，则aE是可测的并且 $m(aE) &#x3D;|a|^nm(E)$</p>
+<p>(1)有限可加性：若 $A&#95;1,A&#95;2,&#92;dots,A&#95;k$是互不相交的可测集，则 $m(&#92;bigcup&#95;&#123;i&#x3D;1&#125;^&#123;k&#125;A&#95;i)&#x3D; &#92;sum&#95;&#123;i&#x3D;1&#125;^&#123;k&#125;&#123;m(A&#95;i)&#125;$</p>
+<p>(2)可减性：若A，B是可测集， $A&#92;sub b$并且 $m(A) &lt; &#92;infty$，则 $m(B-A) &#x3D;m(B)-m(A)$</p>
+<p>(3)可列可加性：若 $&#92;&#123;A&#95;k&#92;&#125;$是一列互不相交的可测集，则 $m(&#92;bigcup&#95;&#123;i&#x3D;1&#125;^&#123;&#92;infty&#125;A&#95;i)&#x3D; &#92;sum&#95;&#123;i&#x3D;1&#125;^&#123;&#92;infty&#125;&#123;m(A&#95;i)&#125;$ </p>
+<p>(4)下连续性：若 $&#92;&#123;A&#95;k&#92;&#125;$是一列单调递增的可测集，则 $m( &#92;bigcup^&#123;&#92;infty&#125;&#95;&#123;k&#x3D;1&#125;&#123;A&#95;k&#125;)&#x3D; &#92;lim &#95;&#123;k &#92;rightarrow&#92;infty&#125;m(A&#95;k)$</p>
+<p>(5)上连续性：若 $&#92;&#123;A&#95;k&#92;&#125;$是一列单调递减的可测集，并且 $m(A&#95;1)&lt; &#92;infty$，则 $m( &#92;bigcap^&#123;&#92;infty&#125;&#95;&#123;k&#x3D;1&#125;&#123;A&#95;k&#125;)&#x3D; &#92;lim &#95;&#123;k &#92;rightarrow&#92;infty&#125;m(A&#95;k)$</p>
+<p>(6)平移不变性：设E是 $R^n$中的可测集， $x&#95;0 &#92;in R^n$，则 $x&#95;0 +E$是可测集并且 $m(x&#95;0+E)&#x3D;m(E)$</p>
+<p>(7)设E是 $R^n$中的可测集，a是实数，则aE是可测的并且 $m(aE) &#x3D;&#124;a&#124;^nm(E)$</p>
 <p>(8)可测集的逼近性质：</p>
 <p>设E为 $R^n$中的可测集，则</p>
-<p>（1）对任意 $\epsilon &gt;0$，存在开集 $G \supset E$使得 $m(G-E) &lt; \epsilon$</p>
-<p>（2）对任意 $\epsilon &gt;0$，存在闭集 $F\sub E$使得 $m(E-F)&lt; \epsilon$</p>
-<p>（3）存在 $G_\delta$型集 $ G \supset E$，使得 $m(G-E)&#x3D;0$ ( $G_\delta$型集即可以表成一列开集的并的集)</p>
-<p>（4）存在 $F_\delta$型集 $F \sub E $，使得 $m(E-F)&#x3D;0$ ( $F_\delta$型集即可以表成一列闭集的交的集)</p>
+<p>（1）对任意 $&#92;epsilon &gt;0$，存在开集 $G &#92;supset E$使得 $m(G-E) &lt; &#92;epsilon$</p>
+<p>（2）对任意 $&#92;epsilon &gt;0$，存在闭集 $F&#92;sub E$使得 $m(E-F)&lt; &#92;epsilon$</p>
+<p>（3）存在 $G&#95;&#92;delta$型集 $ G &#92;supset E$，使得 $m(G-E)&#x3D;0$ ( $G&#95;&#92;delta$型集即可以表成一列开集的并的集)</p>
+<p>（4）存在 $F&#95;&#92;delta$型集 $F &#92;sub E $，使得 $m(E-F)&#x3D;0$ ( $F&#95;&#92;delta$型集即可以表成一列闭集的交的集)</p>
 <p>推论：</p>
-<p>（5）存在一个 $G_\delta$型集G和一个零侧集Z，使得 $E &#x3D;G-Z$</p>
-<p>（6）存在一个 $F_\delta$型集F和一个零测集Z，使得 $E&#x3D;F \cup Z$</p>
+<p>（5）存在一个 $G&#95;&#92;delta$型集G和一个零侧集Z，使得 $E &#x3D;G-Z$</p>
+<p>（6）存在一个 $F&#95;&#92;delta$型集F和一个零测集Z，使得 $E&#x3D;F &#92;cup Z$</p>
 <h3 id="第三章：可测函数"><a href="#第三章：可测函数" class="headerlink" title="第三章：可测函数"></a>第三章：可测函数</h3><h4 id="可测函数"><a href="#可测函数" class="headerlink" title="可测函数"></a>可测函数</h4><p>**定义：**设E是 $R^n$中的可测集， $f$是定义在E上的函数，若对任意实数a，</p>
-<p>${x\in E:f(x)&gt;a}$</p>
+<p>$&#92;&#123;x&#92;in E:f(x)&gt;a&#92;&#125;$</p>
 <p>记为 $E(f&gt;a)$是可测集，则称 $f$为E上的Lebesgue可测函数（简称为可测函数），或称 $f$在E上可测。</p>
 <p><strong>等价表示</strong>：</p>
 <p>（1） $f$是E上的可测函数；</p>
-<p>（2）对任意实数a， $E(f\ge a )$是可测集；</p>
+<p>（2）对任意实数a， $E(f&#92;ge a )$是可测集；</p>
 <p>（3）对任意实数a， $E(f &lt;a)$是可测集；</p>
-<p>（4）对任意实数a， $E(f \le a)$是可测集；</p>
-<p>（5）对 $R^1$中的任意Borel集A， $f^{-1}(A)$是可测集，并且 $E(f&#x3D;+ \infty)$是可测集</p>
+<p>（4）对任意实数a， $E(f &#92;le a)$是可测集；</p>
+<p>（5）对 $R^1$中的任意Borel集A， $f^&#123;-1&#125;(A)$是可测集，并且 $E(f&#x3D;+ &#92;infty)$是可测集</p>
 <p><strong>可测函数的性质：</strong></p>
 <p>（1）常值函数在E是可测</p>
 <p>（2）可测集的特征函数是可测的</p>
 <p>（3）连续函数是可测的</p>
 <p>（4）定义在区间[a,b]上的单调函数是[a,b]上的可测函数</p>
-<p>（5）若 $f$在 $E$上可测， $E_1$是 $E$的可测子集，则 $f$在 $E_1$上可测</p>
-<p>（6）设 $E_1$和 $E_2$是E的可测子集，并且 $E&#x3D; E_1 \cup E_2$，若 $f$在 $E_1$和 $E_2$上可测，则 $f$在 $E$上可测</p>
+<p>（5）若 $f$在 $E$上可测， $E&#95;1$是 $E$的可测子集，则 $f$在 $E&#95;1$上可测</p>
+<p>（6）设 $E&#95;1$和 $E&#95;2$是E的可测子集，并且 $E&#x3D; E&#95;1 &#92;cup E&#95;2$，若 $f$在 $E&#95;1$和 $E&#95;2$上可测，则 $f$在 $E$上可测</p>
 <p>**（7）可测函数的运算封闭性：设 **$f$**和 **$g$<strong>在E上可测</strong></p>
-<p>（1）函数 $cf(c是实数)，f+g,fg,f&#x2F;g(g\not &#x3D; 0),f^2和|f|还有f^+,f^-$都在E上可测</p>
-<p>（2） $f可测 \implies |f|可测$，但是 $f可测 \not\impliedby |f|可测$</p>
-<p>（3）设 ${f_n}$是E上的可测函数列，则函数 $\sup_{n \ge 1}{f_n}, \inf_{n \ge 1}{f_n}, \overline{\lim_{n \to \infty}}f_n, \underset{n \to \infty}{\underline{\lim}}{f_n}$都在E上可测，特别地，若对每个 $x \in E$，极限 $ \lim_{n \to \infty}{f_n(x)}$存在，则 $\lim_{n \to \infty}f_n$在E上可测</p>
+<p>（1）函数 $cf(c是实数)，f+g,fg,f&#x2F;g(g&#92;not &#x3D; 0),f^2和&#124;f&#124;还有f^+,f^-$都在E上可测</p>
+<p>（2） $f可测 &#92;implies &#124;f&#124;可测$，但是 $f可测 &#92;not&#92;impliedby &#124;f&#124;可测$</p>
+<p>（3）设 $&#92;&#123;f&#95;n&#92;&#125;$是E上的可测函数列，则函数 $&#92;sup&#95;&#123;n &#92;ge 1&#125;&#123;f&#95;n&#125;, &#92;inf&#95;&#123;n &#92;ge 1&#125;&#123;f&#95;n&#125;, &#92;overline&#123;&#92;lim&#95;&#123;n &#92;to &#92;infty&#125;&#125;f&#95;n, &#92;underset&#123;n &#92;to &#92;infty&#125;&#123;&#92;underline&#123;&#92;lim&#125;&#125;&#123;f&#95;n&#125;$都在E上可测，特别地，若对每个 $x &#92;in E$，极限 $ &#92;lim&#95;&#123;n &#92;to &#92;infty&#125;&#123;f&#95;n(x)&#125;$存在，则 $&#92;lim&#95;&#123;n &#92;to &#92;infty&#125;f&#95;n$在E上可测</p>
 <p><strong>可测函数用简单函数逼近：</strong></p>
-<p>定义：设 $f$是定义在E上的函数，若存在E的一个可测分割 ${A_1,A_2 \dots A_k}$，使得 $f$在每个 $A_i$却常值 $a_i$，则称 $f$为E上的简单函数。</p>
+<p>定义：设 $f$是定义在E上的函数，若存在E的一个可测分割 $&#92;&#123;A&#95;1,A&#95;2 &#92;dots A&#95;k&#92;&#125;$，使得 $f$在每个 $A&#95;i$却常值 $a&#95;i$，则称 $f$为E上的简单函数。</p>
 <p>**简单函数性质：**设 $f$和 $g$都是简单函数，则</p>
 <p>（1） $cf(c是实数)，f+g$是简单函数</p>
-<p>（2）若 $\varphi$是 $R^n$上的实值函数，则 $\varphi(f(x))$也是简单函数</p>
-<p>**定理：**设 $f$是E上的非负可测函数，则存在非负简单函数列 ${f_n}$，使得 ${f_n}$是单调增加的，并且在E上处处收敛于 $f$,若 $f$在E上还是有界的，则 ${f_n}$收敛于 $f$是一致的。</p>
-<p>**推论：**设 $f$是E上的可测函数，则存在简单函数列 ${f_n}$，使得 ${f_n}$在E上处处收敛于 $f$，并且 $|f_n| \le |f|(n \ge 1)$，若 $f$在E上还是有界的，则 ${f_n}$收敛于 $f$是一致的。</p>
-<p>**推论：**设 $f<br>$是定义在E上的函数，则 $f$可测的充要条件是存在简单函数列 ${f_n}$在E上处处收敛于 $f$</p>
+<p>（2）若 $&#92;varphi$是 $R^n$上的实值函数，则 $&#92;varphi(f(x))$也是简单函数</p>
+<p>**定理：**设 $f$是E上的非负可测函数，则存在非负简单函数列 $&#92;&#123;f&#95;n&#92;&#125;$，使得 $&#92;&#123;f&#95;n&#92;&#125;$是单调增加的，并且在E上处处收敛于 $f$,若 $f$在E上还是有界的，则 $&#92;&#123;f&#95;n&#92;&#125;$收敛于 $f$是一致的。</p>
+<p>**推论：**设 $f$是E上的可测函数，则存在简单函数列 $&#92;&#123;f&#95;n&#92;&#125;$，使得 $&#92;&#123;f&#95;n&#92;&#125;$在E上处处收敛于 $f$，并且 $&#124;f&#95;n&#124; &#92;le &#124;f&#124;(n &#92;ge 1)$，若 $f$在E上还是有界的，则 $&#92;&#123;f&#95;n&#92;&#125;$收敛于 $f$是一致的。</p>
+<p>**推论：**设 $f $是定义在E上的函数，则 $f$可测的充要条件是存在简单函数列 $&#92;&#123;f&#95;n&#92;&#125;$在E上处处收敛于 $f$</p>
 <p>**定理：**若 $f$是E上的实值可测函数， $g$是 $R^1$上的连续函数，则复合函数 $g(f(x))$在E上可测。</p>
-<h4 id="可测函数列的收敛"><a href="#可测函数列的收敛" class="headerlink" title="可测函数列的收敛"></a>可测函数列的收敛</h4><p>**定义：**设P(x)是一个与E中的点x有关的命题，若 $m({x \in E :P(x)不成立})&#x3D;0$，换言之，存在E的一个零测度子集 $E_0$，使得当 $x \in E-E_0$时命题P(x)成立，则称P(x)在E上几乎处处成立（或者称P(x)几乎对所有 $x \in E$成立）</p>
+<h4 id="可测函数列的收敛"><a href="#可测函数列的收敛" class="headerlink" title="可测函数列的收敛"></a>可测函数列的收敛</h4><p>**定义：**设P(x)是一个与E中的点x有关的命题，若 $m(&#92;&#123;x &#92;in E :P(x)不成立&#92;&#125;)&#x3D;0$，换言之，存在E的一个零测度子集 $E&#95;0$，使得当 $x &#92;in E-E&#95;0$时命题P(x)成立，则称P(x)在E上几乎处处成立（或者称P(x)几乎对所有 $x &#92;in E$成立）</p>
 <p><strong>三种收敛：</strong></p>
-<p>**几乎处处收敛：**若存在E的一个零测度集 $E_0$，使得当 $x \in E-E_0$时， $f_n(x) \rightarrow f\ \ \   a.e. \ \ x  \in E$</p>
-<p>**几乎一致收敛：**若对任何的 $\delta &gt; 0$，存在E的可测子集 $E_\delta$，使得 $m(E-E_\delta)&lt; \delta$，并且 ${f_n}$在 $E_\delta$上一致收敛于 $f$，则称 ${f_n}$在E上几乎一致收敛于 $f$，记为 $f_n \rightarrow f \ \ \ a.un. \ \  x\in E$</p>
-<p>**依测度收敛：**若对扔给的 $\epsilon &gt;0$，总有 $\lim_{n \rightarrow \infty} m{ x \in E: |f_n(x)-f(x)| \ge  \epsilon }&#x3D;0$，则称 ${f_n}$在E上依测度收敛于 $f$，记为在E上 $f_n \overset{m}{\rightarrow }f$</p>
+<p>**几乎处处收敛：**若存在E的一个零测度集 $E&#95;0$，使得当 $x &#92;in E-E&#95;0$时， $f&#95;n(x) &#92;rightarrow f&#92; &#92; &#92;   a.e. &#92; &#92; x  &#92;in E$</p>
+<p>**几乎一致收敛：**若对任何的 $&#92;delta &gt; 0$，存在E的可测子集 $E&#95;&#92;delta$，使得 $m(E-E&#95;&#92;delta)&lt; &#92;delta$，并且 $&#92;&#123;f&#95;n&#92;&#125;$在 $E&#95;&#92;delta$上一致收敛于 $f$，则称 $&#92;&#123;f&#95;n&#92;&#125;$在E上几乎一致收敛于 $f$，记为 $f&#95;n &#92;rightarrow f &#92; &#92; &#92; a.un. &#92; &#92;  x&#92;in E$</p>
+<p>**依测度收敛：**若对扔给的 $&#92;epsilon &gt;0$，总有 $&#92;lim&#95;&#123;n &#92;rightarrow &#92;infty&#125; m&#92;&#123; x &#92;in E: &#124;f&#95;n(x)-f(x)&#124; &#92;ge  &#92;epsilon &#92;&#125;&#x3D;0$，则称 $&#92;&#123;f&#95;n&#92;&#125;$在E上依测度收敛于 $f$，记为在E上 $f&#95;n &#92;overset&#123;m&#125;&#123;&#92;rightarrow &#125;f$</p>
 <p><strong>三种收敛的关系：</strong></p>
 <p><img   lazyload src="/assets/images/Meow-Loading.webp" data-lazy-src="/2026/09/11/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0/7ba9ef8f2afa52e21477b385f2fc788e_720.jpg"  alt="7ba9ef8f2afa52e21477b385f2fc788e\_720\.jpg"></p>
 <p><strong>可以简记为：</strong></p>
-<p>几乎处处收敛在 $m(E) &lt; \infty$条件下可以得到 几乎一致收敛（Egoroff定理）和依测度收敛</p>
+<p>几乎处处收敛在 $m(E) &lt; &#92;infty$条件下可以得到 几乎一致收敛（Egoroff定理）和依测度收敛</p>
 <p>几乎一致收敛可以直接得到几乎处处收敛和依测度收敛</p>
 <p>依测度收敛则存在子列几乎处处收敛（Riesz定理）</p>
 <p><strong>一些个人理解：</strong></p>
@@ -247,126 +247,126 @@
 <p>几乎处处收敛就是在去掉零测集后剩下的点逐点收敛</p>
 <p>几乎一致收敛就是在去掉任意小测度集后剩下的区域一致收敛</p>
 <p><em><strong>重要定理（Riesz定理的推论）：</strong></em></p>
-<p>设 $m(E) &lt; \infty$，则 $f_n \overset{m}{\rightarrow}f$的充要条件是对 ${f_n}$的任一子列 $ {f_{n_k}}$，都存在其子列 ${f_{n_{k’}}}$使得 $ f_{n_{k’}} \rightarrow f \ \ \ a.e.$</p>
+<p>设 $m(E) &lt; &#92;infty$，则 $f&#95;n &#92;overset&#123;m&#125;&#123;&#92;rightarrow&#125;f$的充要条件是对 $&#92;&#123;f&#95;n&#92;&#125;$的任一子列 $ &#92;&#123;f&#95;&#123;n&#95;k&#125;&#92;&#125;$，都存在其子列 $&#92;&#123;f&#95;&#123;n&#95;&#123;k’&#125;&#125;&#92;&#125;$使得 $ f&#95;&#123;n&#95;&#123;k’&#125;&#125; &#92;rightarrow f &#92; &#92; &#92; a.e.$</p>
 <h4 id="可测函数用连续函数逼近"><a href="#可测函数用连续函数逼近" class="headerlink" title="可测函数用连续函数逼近"></a>可测函数用连续函数逼近</h4><p><strong>鲁津定理：</strong></p>
-<p>**形式1：**设 $f$是E上几乎处处有限的可测函数，则对任意 $\delta &gt;0$，存在E的闭子集 $F_\delta$，使得 $m(E-F_\delta) &lt; \delta$，并且 $f$是 $ F_\delta$上的连续函数（即 $f$在 $F_\delta$上的限制 $f|<em>{F</em>\delta}$在 $F_\delta$上连续）</p>
-<p>**形式2：**设 $f$是E上几乎处处有限的可测函数，则对任意 $\delta &gt;0$，存在 $R^n$上的连续函数 $g$，使得 </p>
-<p>$m{x \in E: f(x) \not &#x3D; g(x)} &lt;\delta$，并且 $ \sup_{x \in R^n}{|g(x)|} \le \sup_{x \in R^n}{|f(x)|}$</p>
+<p>**形式1：**设 $f$是E上几乎处处有限的可测函数，则对任意 $&#92;delta &gt;0$，存在E的闭子集 $F&#95;&#92;delta$，使得 $m(E-F&#95;&#92;delta) &lt; &#92;delta$，并且 $f$是 $ F&#95;&#92;delta$上的连续函数（即 $f$在 $F&#95;&#92;delta$上的限制 $f&#124;&#95;&#123;F&#95;&#92;delta&#125;$在 $F&#95;&#92;delta$上连续）</p>
+<p>**形式2：**设 $f$是E上几乎处处有限的可测函数，则对任意 $&#92;delta &gt;0$，存在 $R^n$上的连续函数 $g$，使得 </p>
+<p>$m&#92;&#123;x &#92;in E: f(x) &#92;not &#x3D; g(x)&#92;&#125; &lt;&#92;delta$，并且 $ &#92;sup&#95;&#123;x &#92;in R^n&#125;&#123;&#124;g(x)&#124;&#125; &#92;le &#92;sup&#95;&#123;x &#92;in R^n&#125;&#123;&#124;f(x)&#124;&#125;$</p>
 <p><strong>Tietze(蒂茨)扩张定理：</strong></p>
-<p>设F是 $R^n$中的闭集， $f$是定义在F上的连续函数，则存在$R^n$上的连续函数 $g$，使得当 $x \in F$时， $g(x)&#x3D;f(x)$，并且 $\sup_{x \in R^n}{|g(x)|} &#x3D; \sup_{x \in F}{|f(x)|}$</p>
+<p>设F是 $R^n$中的闭集， $f$是定义在F上的连续函数，则存在$R^n$上的连续函数 $g$，使得当 $x &#92;in F$时， $g(x)&#x3D;f(x)$，并且 $&#92;sup&#95;&#123;x &#92;in R^n&#125;&#123;&#124;g(x)&#124;&#125; &#x3D; &#92;sup&#95;&#123;x &#92;in F&#125;&#123;&#124;f(x)&#124;&#125;$</p>
 <p>**推论：**在鲁津定理形式2中，若E是有界集，则还可以使得 $g$是具有紧支集的连续函数。</p>
 <p><strong>补两个定义：</strong></p>
-<p>**支集&#x2F;支撑集：**对于定义在集合X（通常是 $R^n$）上的函数 $f: x\rightarrow R$,它的支集（也叫做支撑集，记作 $supp(f)$）是函数值不为零的点集的闭包。</p>
+<p>**支集&#x2F;支撑集：**对于定义在集合X（通常是 $R^n$）上的函数 $f: x&#92;rightarrow R$,它的支集（也叫做支撑集，记作 $supp(f)$）是函数值不为零的点集的闭包。</p>
 <p>**紧集：**有界闭集</p>
-<p>**推论：**设 $f$是E上几乎处处有限的可测函数，则存在 $R^n$上的连续函数列 ${f_k}$在E上几乎处处收敛于 $f$</p>
+<p>**推论：**设 $f$是E上几乎处处有限的可测函数，则存在 $R^n$上的连续函数列 $&#92;&#123;f&#95;k&#92;&#125;$在E上几乎处处收敛于 $f$</p>
 <h3 id="第四章：Lebesgue积分"><a href="#第四章：Lebesgue积分" class="headerlink" title="第四章：Lebesgue积分"></a>第四章：Lebesgue积分</h3><h4 id="积分的定义"><a href="#积分的定义" class="headerlink" title="积分的定义"></a>积分的定义</h4><p><strong>3个定义：</strong></p>
 <p><strong>非负简单函数的积分：</strong></p>
-<p>设 $f(x)&#x3D; \sum_{i&#x3D;1}^{k}{a_i \chi_{A_i}(x)}$是E上的的非负简单函数，其中 ${A_1,A_2,\dots,A_k}$是E的一个可测分割， $a_1,a_2,\dots, a_k$是非负实数，定义 $f$在E上的积分为</p>
-<p>$\int_E fdx &#x3D; \sum_{i&#x3D;1}^{k}a_im(A_i)$</p>
-<p>一般情况下， $0 \le \int_E fdx \le +\infty$，若 $\int_E fdx &lt;+ \infty$，则称 $f$在E上是可积的。</p>
+<p>设 $f(x)&#x3D; &#92;sum&#95;&#123;i&#x3D;1&#125;^&#123;k&#125;&#123;a&#95;i &#92;chi&#95;&#123;A&#95;i&#125;(x)&#125;$是E上的的非负简单函数，其中 $&#92;&#123;A&#95;1,A&#95;2,&#92;dots,A&#95;k&#92;&#125;$是E的一个可测分割， $a&#95;1,a&#95;2,&#92;dots, a&#95;k$是非负实数，定义 $f$在E上的积分为</p>
+<p>$&#92;int&#95;E fdx &#x3D; &#92;sum&#95;&#123;i&#x3D;1&#125;^&#123;k&#125;a&#95;im(A&#95;i)$</p>
+<p>一般情况下， $0 &#92;le &#92;int&#95;E fdx &#92;le +&#92;infty$，若 $&#92;int&#95;E fdx &lt;+ &#92;infty$，则称 $f$在E上是可积的。</p>
 <p><strong>非负可测函数的积分：</strong></p>
 <p>设 $f$是E上的非负可测函数，定义 $f$在E上的积分为</p>
-<p>$\int_E fdx &#x3D; \sup{\int_E gdx:g是非负简单函数，并且 g \le f}$</p>
-<p>一般情况下 $0 \le \int_E fdx \le +\infty$，若 $\int_Efdx &lt; \infty$，则称 $f$在E上是可积的。</p>
+<p>$&#92;int&#95;E fdx &#x3D; &#92;sup&#92;&#123;&#92;int&#95;E gdx:g是非负简单函数，并且 g &#92;le f&#92;&#125;$</p>
+<p>一般情况下 $0 &#92;le &#92;int&#95;E fdx &#92;le +&#92;infty$，若 $&#92;int&#95;Efdx &lt; &#92;infty$，则称 $f$在E上是可积的。</p>
 <p><strong>一般可测函数的积分：</strong></p>
-<p>设 $f$是E上的可测函数，若 $\int_E f^+dx$和 $\int_E f^-dx$至少有一个是有限值，则称 $f$在E上积分存在，并且定义 $f$在E上的积分为</p>
-<p>$\int_E fdx &#x3D; \int_E f^+dx - \int_E f^-dx$</p>
-<p>当 $\int_E fdx$是有限值时（这等价于 $\int_E f^+dx$和 $\int_E f^-dx$都是有限值），称 $f$在E上是可积的</p>
+<p>设 $f$是E上的可测函数，若 $&#92;int&#95;E f^+dx$和 $&#92;int&#95;E f^-dx$至少有一个是有限值，则称 $f$在E上积分存在，并且定义 $f$在E上的积分为</p>
+<p>$&#92;int&#95;E fdx &#x3D; &#92;int&#95;E f^+dx - &#92;int&#95;E f^-dx$</p>
+<p>当 $&#92;int&#95;E fdx$是有限值时（这等价于 $&#92;int&#95;E f^+dx$和 $&#92;int&#95;E f^-dx$都是有限值），称 $f$在E上是可积的</p>
 <p><strong>函数的可积性（怎么判断函数是否可积）：</strong></p>
 <p>设 $f$和 $g$是E上的可测函数</p>
-<p>（1）若 $g \in L(E)$，并且在E上 $f \le g \ \ \ a.e.$或者 $f\ge g \ \ \ a.e.$，则 $f$在E上的积分存在</p>
-<p>（2）若 $g \in L(E)$，并且在E上 $|f| \le g \ \ \ a.e.$，则 $f \in L(E)$</p>
-<p>（3） $f \in L(E) \iff |f| \in L(E)$ （常用）</p>
-<p>（4）若 $m(E) &lt; \infty$， $f$是E上的有界可测函数，则 $f \in L(E)$</p>
+<p>（1）若 $g &#92;in L(E)$，并且在E上 $f &#92;le g &#92; &#92; &#92; a.e.$或者 $f&#92;ge g &#92; &#92; &#92; a.e.$，则 $f$在E上的积分存在</p>
+<p>（2）若 $g &#92;in L(E)$，并且在E上 $&#124;f&#124; &#92;le g &#92; &#92; &#92; a.e.$，则 $f &#92;in L(E)$</p>
+<p>（3） $f &#92;in L(E) &#92;iff &#124;f&#124; &#92;in L(E)$ （常用）</p>
+<p>（4）若 $m(E) &lt; &#92;infty$， $f$是E上的有界可测函数，则 $f &#92;in L(E)$</p>
 <h4 id="积分的性质"><a href="#积分的性质" class="headerlink" title="积分的性质"></a>积分的性质</h4><p><strong>一些定理推论（或者说没有名字的性质）：</strong></p>
 <p>（1）设 $f$在E上的积分存在，A是E的可测子集，则 $f$在A上的积分存在，并且</p>
-<p>$\int_Afdx &#x3D;\int_E f \chi_A dx$</p>
+<p>$&#92;int&#95;Afdx &#x3D;&#92;int&#95;E f &#92;chi&#95;A dx$</p>
 <p>特别地，当 $f$在E上可积时， $f$在A上可积，并且上式也成立。</p>
 <p>（2）设 $f,g$在E上的积分存在，则</p>
-<p>（1）若 $f\le g \ \ \ a.e.$，则 $\int_E fdx \le \int_E gdx$（积分的单调性）</p>
-<p>（2）若 $f&#x3D;g \ \ \ a.e.$，则 $\int_E fdx &#x3D; \int_E gdx$</p>
-<p>（3）若 $f \ge 0 \ \ \ a.e.$，A和B是E的可测子集，并且 $ A \sub B$，则 $\int_A fdx \le \int_B fdx$</p>
-<p>（3）若在E上 $f&#x3D;0 \ \ \ a.e.$，则 $\int_E fdx &#x3D;0$</p>
-<p>（4）若 $m(E)&#x3D;0$，则对E上的任意可测函数 $f$， $\int_E fdx &#x3D;0$</p>
-<p>（5）若 $f \in L(E)$，则 $|\int_Efdx| \le \int_E |f|dx$</p>
-<p>（6）若 $f \in L(E)$，则 $f$在E上几乎处处有限</p>
-<p>（7）若在E上 $f \ge0 \ \ \ a.e.$，并且 $\int_E fdx &#x3D;0$，则 $f&#x3D;0 \ \ \ a.e.$</p>
+<p>（1）若 $f&#92;le g &#92; &#92; &#92; a.e.$，则 $&#92;int&#95;E fdx &#92;le &#92;int&#95;E gdx$（积分的单调性）</p>
+<p>（2）若 $f&#x3D;g &#92; &#92; &#92; a.e.$，则 $&#92;int&#95;E fdx &#x3D; &#92;int&#95;E gdx$</p>
+<p>（3）若 $f &#92;ge 0 &#92; &#92; &#92; a.e.$，A和B是E的可测子集，并且 $ A &#92;sub B$，则 $&#92;int&#95;A fdx &#92;le &#92;int&#95;B fdx$</p>
+<p>（3）若在E上 $f&#x3D;0 &#92; &#92; &#92; a.e.$，则 $&#92;int&#95;E fdx &#x3D;0$</p>
+<p>（4）若 $m(E)&#x3D;0$，则对E上的任意可测函数 $f$， $&#92;int&#95;E fdx &#x3D;0$</p>
+<p>（5）若 $f &#92;in L(E)$，则 $&#124;&#92;int&#95;Efdx&#124; &#92;le &#92;int&#95;E &#124;f&#124;dx$</p>
+<p>（6）若 $f &#92;in L(E)$，则 $f$在E上几乎处处有限</p>
+<p>（7）若在E上 $f &#92;ge0 &#92; &#92; &#92; a.e.$，并且 $&#92;int&#95;E fdx &#x3D;0$，则 $f&#x3D;0 &#92; &#92; &#92; a.e.$</p>
 <p><strong>有名字的性质：</strong></p>
 <p><strong>（1）积分的线性性：</strong></p>
-<p>若 $f,g \in L(E)$，c是常数，则 $cf,f+g \in L(E)$，并且</p>
-<p>$\int_E cfdx &#x3D;c \int_E fdx$</p>
-<p>$\int_E (f+g)dx &#x3D; \int_E fdx+\int_E gdx$</p>
+<p>若 $f,g &#92;in L(E)$，c是常数，则 $cf,f+g &#92;in L(E)$，并且</p>
+<p>$&#92;int&#95;E cfdx &#x3D;c &#92;int&#95;E fdx$</p>
+<p>$&#92;int&#95;E (f+g)dx &#x3D; &#92;int&#95;E fdx+&#92;int&#95;E gdx$</p>
 <p><strong>（2）积分对积分域的可加性：</strong></p>
-<p>设 $f \in L(E)$， $A_1$和 $A_2$是E的互不相交的子集，并且 $E&#x3D; A_1 \cup A_2$，则</p>
-<p>$\int_E fdx &#x3D; \int_{A_1}fdx + \int_{A_2}dx$</p>
+<p>设 $f &#92;in L(E)$， $A&#95;1$和 $A&#95;2$是E的互不相交的子集，并且 $E&#x3D; A&#95;1 &#92;cup A&#95;2$，则</p>
+<p>$&#92;int&#95;E fdx &#x3D; &#92;int&#95;&#123;A&#95;1&#125;fdx + &#92;int&#95;&#123;A&#95;2&#125;dx$</p>
 <p><strong>（3）积分对积分域的可列可加性：</strong></p>
-<p>设 $f$在E上的积分存在， ${E_n}$是E的一列互不相交的可测子集，并且 $E&#x3D; \bigcup^{\infty}_{n&#x3D;1}{E_n}$，则</p>
-<p>$\int_Efdx &#x3D; \sum_{n&#x3D;1}^{\infty}\int_{E_n}fdx$</p>
+<p>设 $f$在E上的积分存在， $&#92;&#123;E&#95;n&#92;&#125;$是E的一列互不相交的可测子集，并且 $E&#x3D; &#92;bigcup^&#123;&#92;infty&#125;&#95;&#123;n&#x3D;1&#125;&#123;E&#95;n&#125;$，则</p>
+<p>$&#92;int&#95;Efdx &#x3D; &#92;sum&#95;&#123;n&#x3D;1&#125;^&#123;&#92;infty&#125;&#92;int&#95;&#123;E&#95;n&#125;fdx$</p>
 <p><strong>（4）Chebyshev（切比雪夫）不等式：</strong></p>
-<p>设 $f$是E上的可测函数，则对任意 $\lambda &gt;0$有</p>
-<p>$mE(|f| \ge \lambda) \le \cfrac{1}{\lambda}\int_E |f|dx$</p>
+<p>设 $f$是E上的可测函数，则对任意 $&#92;lambda &gt;0$有</p>
+<p>$mE(&#124;f&#124; &#92;ge &#92;lambda) &#92;le &#92;cfrac&#123;1&#125;&#123;&#92;lambda&#125;&#92;int&#95;E &#124;f&#124;dx$</p>
 <p><strong>（5）积分的绝对连续性：</strong></p>
-<p>设 $f \in L(E)$，则对任意 $\epsilon&gt;0$，存在相应的 $\delta &gt;0$，使得当 $A \sub E$并且 $m(A) &lt; \delta$时 $\int _A|f|dx&lt; \epsilon$</p>
+<p>设 $f &#92;in L(E)$，则对任意 $&#92;epsilon&gt;0$，存在相应的 $&#92;delta &gt;0$，使得当 $A &#92;sub E$并且 $m(A) &lt; &#92;delta$时 $&#92;int &#95;A&#124;f&#124;dx&lt; &#92;epsilon$</p>
 <h4 id="积分的极限定理"><a href="#积分的极限定理" class="headerlink" title="积分的极限定理"></a>积分的极限定理</h4><p><strong>五个重要的定理：</strong></p>
 <p><strong>（1）Levi（莱维）单调收敛定理</strong></p>
-<p>设 ${f_n } $是E上的单调递增的非负可测函数列， $f$是E上的非负可测函数，若在E上 $f_n \rightarrow f \ \ \ a.e.$，则</p>
-<p>$\lim_{n \rightarrow \infty} \int_E f_ndx &#x3D; \int_E fdx$</p>
+<p>设 $&#92;&#123;f&#95;n &#92;&#125; $是E上的单调递增的非负可测函数列， $f$是E上的非负可测函数，若在E上 $f&#95;n &#92;rightarrow f &#92; &#92; &#92; a.e.$，则</p>
+<p>$&#92;lim&#95;&#123;n &#92;rightarrow &#92;infty&#125; &#92;int&#95;E f&#95;ndx &#x3D; &#92;int&#95;E fdx$</p>
 <p><strong>（2）逐项积分定理</strong></p>
-<p>设 ${f_n}$是E上的非负可测函数列，则 $\int_E \sum_{n&#x3D;1}^{\infty}f_ndx &#x3D; \sum^{\infty}_{n&#x3D;1} \int_E f_ndx$</p>
+<p>设 $&#92;&#123;f&#95;n&#92;&#125;$是E上的非负可测函数列，则 $&#92;int&#95;E &#92;sum&#95;&#123;n&#x3D;1&#125;^&#123;&#92;infty&#125;f&#95;ndx &#x3D; &#92;sum^&#123;&#92;infty&#125;&#95;&#123;n&#x3D;1&#125; &#92;int&#95;E f&#95;ndx$</p>
 <p><strong>（3）Fatou（法图）引理</strong></p>
-<p>设 ${ f_n}$是E上的非负可测函数列，则 $\int_e \underset{n \rightarrow \infty}{\underline{\lim}} f_ndx \le \underset{n \rightarrow \infty}{\underline{\lim}} \int_E f_ndx$</p>
+<p>设 $&#92;&#123; f&#95;n&#92;&#125;$是E上的非负可测函数列，则 $&#92;int&#95;e &#92;underset&#123;n &#92;rightarrow &#92;infty&#125;&#123;&#92;underline&#123;&#92;lim&#125;&#125; f&#95;ndx &#92;le &#92;underset&#123;n &#92;rightarrow &#92;infty&#125;&#123;&#92;underline&#123;&#92;lim&#125;&#125; &#92;int&#95;E f&#95;ndx$</p>
 <p><strong>（4）控制收敛定理</strong></p>
-<p>设 $f,f_n(n \ge 1)$在E上可测，并且 $f_n \rightarrow f \ \ \ a.e或 f_n \overset{m}{\rightarrow}f$，若存在 $g \in L(E)$，使得</p>
-<p>$|f_n| \le g \ \ \ a.e. (n&#x3D;1,2,\dots),$</p>
-<p>则 $f_n，f \in L(E)$，并且</p>
-<p>$\lim_{n\rightarrow \infty}\int_E f_ndx &#x3D; \int_E fdx$</p>
+<p>设 $f,f&#95;n(n &#92;ge 1)$在E上可测，并且 $f&#95;n &#92;rightarrow f &#92; &#92; &#92; a.e或 f&#95;n &#92;overset&#123;m&#125;&#123;&#92;rightarrow&#125;f$，若存在 $g &#92;in L(E)$，使得</p>
+<p>$&#124;f&#95;n&#124; &#92;le g &#92; &#92; &#92; a.e. (n&#x3D;1,2,&#92;dots),$</p>
+<p>则 $f&#95;n，f &#92;in L(E)$，并且</p>
+<p>$&#92;lim&#95;&#123;n&#92;rightarrow &#92;infty&#125;&#92;int&#95;E f&#95;ndx &#x3D; &#92;int&#95;E fdx$</p>
 <p><strong>（5）有界收敛定理</strong></p>
-<p>设 $m(E) &lt; \infty,f,f_n(n \ge1)$在E上可测，并且 $f_n \rightarrow f \ \ \ a.e.$或 $f_n \overset{m}{\rightarrow}f$，若存在常数 M&gt;0，使得在E上</p>
-<p>$|f_n| \le M \ \ \ a,e. \ \ \ (n&#x3D;1,2,\dots)$</p>
-<p>则 $f_n,f \in L(E)$，并且</p>
-<p>$\lim_{n \rightarrow \infty}\int_Ef_ndx &#x3D;\int_E fdx$</p>
-<h4 id="可积函数的逼近性质"><a href="#可积函数的逼近性质" class="headerlink" title="可积函数的逼近性质"></a>可积函数的逼近性质</h4><p>**定理：**设 $f \in L(E)$，则对任意 $\epsilon&gt;0$，存在 $R^n$上的具有紧支集的连续函数或阶梯函数 $g$，使得</p>
-<p>$\int_E|f-g|dx&lt; \epsilon$</p>
-<p>**定理：**设 $p&gt;0$，若 $f \in L^p(E)$，则对任意的 $\epsilon &gt;0$，存在 $R^n$上具有紧支集的连续函数或阶梯函数 $g$，使得</p>
-<p>$ \int_E |f-g|^pdx &lt; \epsilon$</p>
+<p>设 $m(E) &lt; &#92;infty,f,f&#95;n(n &#92;ge1)$在E上可测，并且 $f&#95;n &#92;rightarrow f &#92; &#92; &#92; a.e.$或 $f&#95;n &#92;overset&#123;m&#125;&#123;&#92;rightarrow&#125;f$，若存在常数 M&gt;0，使得在E上</p>
+<p>$&#124;f&#95;n&#124; &#92;le M &#92; &#92; &#92; a,e. &#92; &#92; &#92; (n&#x3D;1,2,&#92;dots)$</p>
+<p>则 $f&#95;n,f &#92;in L(E)$，并且</p>
+<p>$&#92;lim&#95;&#123;n &#92;rightarrow &#92;infty&#125;&#92;int&#95;Ef&#95;ndx &#x3D;&#92;int&#95;E fdx$</p>
+<h4 id="可积函数的逼近性质"><a href="#可积函数的逼近性质" class="headerlink" title="可积函数的逼近性质"></a>可积函数的逼近性质</h4><p>**定理：**设 $f &#92;in L(E)$，则对任意 $&#92;epsilon&gt;0$，存在 $R^n$上的具有紧支集的连续函数或阶梯函数 $g$，使得</p>
+<p>$&#92;int&#95;E&#124;f-g&#124;dx&lt; &#92;epsilon$</p>
+<p>**定理：**设 $p&gt;0$，若 $f &#92;in L^p(E)$，则对任意的 $&#92;epsilon &gt;0$，存在 $R^n$上具有紧支集的连续函数或阶梯函数 $g$，使得</p>
+<p>$ &#92;int&#95;E &#124;f-g&#124;^pdx &lt; &#92;epsilon$</p>
 <h4 id="Lebesgue积分与Riemann积分的关系"><a href="#Lebesgue积分与Riemann积分的关系" class="headerlink" title="Lebesgue积分与Riemann积分的关系"></a>Lebesgue积分与Riemann积分的关系</h4><p>**定理：**设 $f$是[a,b]上的有界实值函数，则</p>
 <p>（1） $f$在[a,b]上Riemann可积的充要条件是 $f$在[a,b]上几乎处处连续（即 $f$的间断点的全体是零测度集）</p>
-<p>（2）若 $f$是Riemann可积的，则 $f$是Lebesgue可积的，并且 $(R)\int^b_afdx &#x3D; (L)\int^b_afdx$</p>
-<p>**定理：**设对每个b&gt;a， $f$在[a,b]上有界并且几乎处处连续，则 $f \in L[a, \infty)$的充要条件是 $(R)\int^\infty_afdx$绝对收敛，并且当 $(R)\int^\infty_afdx$绝对收敛时，有</p>
-<p>$(R)\int^\infty_afdx &#x3D;(L)\int^\infty_afdx$</p>
+<p>（2）若 $f$是Riemann可积的，则 $f$是Lebesgue可积的，并且 $(R)&#92;int^b&#95;afdx &#x3D; (L)&#92;int^b&#95;afdx$</p>
+<p>**定理：**设对每个b&gt;a， $f$在[a,b]上有界并且几乎处处连续，则 $f &#92;in L[a, &#92;infty)$的充要条件是 $(R)&#92;int^&#92;infty&#95;afdx$绝对收敛，并且当 $(R)&#92;int^&#92;infty&#95;afdx$绝对收敛时，有</p>
+<p>$(R)&#92;int^&#92;infty&#95;afdx &#x3D;(L)&#92;int^&#92;infty&#95;afdx$</p>
 <h4 id="重积分与累次积分-Fubini定理"><a href="#重积分与累次积分-Fubini定理" class="headerlink" title="重积分与累次积分 Fubini定理"></a>重积分与累次积分 Fubini定理</h4><p>Fubini（富比尼）定理：</p>
-<p>（1）若 $f(x,y)$是 $R^p \times R^q$上的非负可测函数，则对几乎处处的 $x\in R^p$， $f(x,y)$作为y的函数在 $R^q$上可测， $g(x) &#x3D; \int_{R^q}f(x,y)dy$在 $R^q$上可测，并且</p>
-<p>$\int_{R^p \times R^q}f(x,y)dxdy &#x3D;  \int_{R^p} \left(\int_{R^q}f(x,y)dy \right)dx$</p>
-<p>（2）若 $f(x,y)$是 $R^p \times R^q$上的可积函数，则对几乎处处的 $x \in R^p$， $f(x,y)$作为y的函数在 $R^q$上可积， $g(x) &#x3D; \int_{R^n}f(x,y)dy$在 $R^p$上可积，并且上式成立。</p>
+<p>（1）若 $f(x,y)$是 $R^p &#92;times R^q$上的非负可测函数，则对几乎处处的 $x&#92;in R^p$， $f(x,y)$作为y的函数在 $R^q$上可测， $g(x) &#x3D; &#92;int&#95;&#123;R^q&#125;f(x,y)dy$在 $R^q$上可测，并且</p>
+<p>$&#92;int&#95;&#123;R^p &#92;times R^q&#125;f(x,y)dxdy &#x3D;  &#92;int&#95;&#123;R^p&#125; &#92;left(&#92;int&#95;&#123;R^q&#125;f(x,y)dy &#92;right)dx$</p>
+<p>（2）若 $f(x,y)$是 $R^p &#92;times R^q$上的可积函数，则对几乎处处的 $x &#92;in R^p$， $f(x,y)$作为y的函数在 $R^q$上可积， $g(x) &#x3D; &#92;int&#95;&#123;R^n&#125;f(x,y)dy$在 $R^p$上可积，并且上式成立。</p>
 <h3 id="第五章：微分与不定积分"><a href="#第五章：微分与不定积分" class="headerlink" title="第五章：微分与不定积分"></a>第五章：微分与不定积分</h3><p><em><strong>这一章只考小题，而且讲得非常少</strong></em></p>
-<p>**定义：**设 $f(x)$是定义在区间 [a,b]上的实值函数，若存在 $M \ge 0$，使得对[a,b]的任一分割 $\pi:a&#x3D;x_0 &lt;x_1&lt; \dots &lt;x_n&#x3D;b$，总有</p>
-<p>$\sum^n_{i&#x3D;1}{|f(x_i)-f(x_{i-1})}|\le M$</p>
+<p>**定义：**设 $f(x)$是定义在区间 [a,b]上的实值函数，若存在 $M &#92;ge 0$，使得对[a,b]的任一分割 $&#92;pi:a&#x3D;x&#95;0 &lt;x&#95;1&lt; &#92;dots &lt;x&#95;n&#x3D;b$，总有</p>
+<p>$&#92;sum^n&#95;&#123;i&#x3D;1&#125;&#123;&#124;f(x&#95;i)-f(x&#95;&#123;i-1&#125;)&#125;&#124;&#92;le M$</p>
 <p>则称 $f(x)$是[a,b]上的有界变差函数。[a,b]上的有界变差函数的全体记为 $BV[a,b]$.</p>
-<p>同时令                                   $\bigvee^b_a(f)&#x3D; \sup_\pi \sum^n_{i&#x3D;1}{|f(x_i)-f(x_{i-1})|}$(一般条件下等于 $\int_a^b |f’(x)|dx$)</p>
+<p>同时令                                   $&#92;bigvee^b&#95;a(f)&#x3D; &#92;sup&#95;&#92;pi &#92;sum^n&#95;&#123;i&#x3D;1&#125;&#123;&#124;f(x&#95;i)-f(x&#95;&#123;i-1&#125;)&#124;&#125;$(一般条件下等于 $&#92;int&#95;a^b &#124;f’(x)&#124;dx$)</p>
 <p><strong>有界变差函数的性质：</strong></p>
 <p>（1）有界变差函数是有界函数</p>
-<p>（2）若 $f \in BV[a,b]，\alpha \in R^1$，则 $\alpha f \in BV[a,b]$，并且 $\bigvee^b_a(\alpha f) &#x3D; |\alpha| \bigvee^b_a(f)$</p>
-<p>（3）若 $f,g \in BV[a,b]$，则 $f+g \in BV[a,b]$，并且 $\bigvee^b_a(f+g) \le  \bigvee^b_a(f) + \bigvee^b_a(g)$</p>
-<p>（4）若 $f,g\in BV[a,b]$，则 $fg \in BV[a,b]$</p>
-<p>（5）若 $f\in BV[a,b]$，则对任意 $c(a&lt;c&lt;b)$有 $f\in BV[a,c]$，并且 $\bigvee^b_a(f) &#x3D;\bigvee^c_a(f)+\bigvee^b_c(f)$</p>
-<p>（6）设 $f(x)$是[a,b]上的有界变差函数，则 $f(x)$在[a,b]上几乎处处可导并且 $f’ \in L[a,b]$</p>
-<p><strong>定理：</strong> $f \in BV[a,b]$的充要条件是 $f(x)$可以表示为$f(x)&#x3D;g(x)-h(x)$其中 $g(x)$和 $f(x)$是[a,b]上单调递增的实值函数</p>
-<p>**定理：**设 $f \in BV[a,b]$则 $\bigvee^b_a(f)$在[a,b]上右连续的充要条件是 $f(x)$在[a,b]上是右连续的。</p>
-<p>**定义：**设 $f(x)$是定义在[a,b]上的实值函数，若对任意 $\epsilon &gt;0$，存在 $\delta&gt;0$，使得对[a,b]上的任意有限个互不相交的开区间 ${(a_i,b_i)}^n_{i&#x3D;1}$，当 $\sum^n_{i&#x3D;1}(b_i-a_i)&lt; \delta$时，必有 </p>
-<p>$\sum^n_{i&#x3D;1}{|f(b_i)-f(a_i)|&lt;\epsilon}$</p>
+<p>（2）若 $f &#92;in BV[a,b]，&#92;alpha &#92;in R^1$，则 $&#92;alpha f &#92;in BV[a,b]$，并且 $&#92;bigvee^b&#95;a(&#92;alpha f) &#x3D; &#124;&#92;alpha&#124; &#92;bigvee^b&#95;a(f)$</p>
+<p>（3）若 $f,g &#92;in BV[a,b]$，则 $f+g &#92;in BV[a,b]$，并且 $&#92;bigvee^b&#95;a(f+g) &#92;le  &#92;bigvee^b&#95;a(f) + &#92;bigvee^b&#95;a(g)$</p>
+<p>（4）若 $f,g&#92;in BV[a,b]$，则 $fg &#92;in BV[a,b]$</p>
+<p>（5）若 $f&#92;in BV[a,b]$，则对任意 $c(a&lt;c&lt;b)$有 $f&#92;in BV[a,c]$，并且 $&#92;bigvee^b&#95;a(f) &#x3D;&#92;bigvee^c&#95;a(f)+&#92;bigvee^b&#95;c(f)$</p>
+<p>（6）设 $f(x)$是[a,b]上的有界变差函数，则 $f(x)$在[a,b]上几乎处处可导并且 $f’ &#92;in L[a,b]$</p>
+<p><strong>定理：</strong> $f &#92;in BV[a,b]$的充要条件是 $f(x)$可以表示为$f(x)&#x3D;g(x)-h(x)$其中 $g(x)$和 $f(x)$是[a,b]上单调递增的实值函数</p>
+<p>**定理：**设 $f &#92;in BV[a,b]$则 $&#92;bigvee^b&#95;a(f)$在[a,b]上右连续的充要条件是 $f(x)$在[a,b]上是右连续的。</p>
+<p>**定义：**设 $f(x)$是定义在[a,b]上的实值函数，若对任意 $&#92;epsilon &gt;0$，存在 $&#92;delta&gt;0$，使得对[a,b]上的任意有限个互不相交的开区间 $&#92;&#123;(a&#95;i,b&#95;i)&#92;&#125;^n&#95;&#123;i&#x3D;1&#125;$，当 $&#92;sum^n&#95;&#123;i&#x3D;1&#125;(b&#95;i-a&#95;i)&lt; &#92;delta$时，必有 </p>
+<p>$&#92;sum^n&#95;&#123;i&#x3D;1&#125;&#123;&#124;f(b&#95;i)-f(a&#95;i)&#124;&lt;&#92;epsilon&#125;$</p>
 <p>则称 $f(x)$是[a,b]上的绝对连续函数，[a,b]上的绝对连续函数的全体记为AC[a,b]</p>
 <p><strong>绝对连续函数一些性质：</strong></p>
 <p>（1）绝对连续函数是连续函数</p>
-<p>（2）若 $f,g\in AC[a,b], \alpha \in R^1$，则 $\alpha f, f+g \in AC[a,b]$</p>
+<p>（2）若 $f,g&#92;in AC[a,b], &#92;alpha &#92;in R^1$，则 $&#92;alpha f, f+g &#92;in AC[a,b]$</p>
 <p>（3）绝对连续函数是有界变差函数</p>
-<p>（4）设 $f\in AC[a,b]$，则 $f(x)$在[a,b]上几乎处处可导，并且 $f’ \in L[a,b]$</p>
-<p>**定理：**设 $f \in L[a,b]$，则 $f(x)$的不定积分 $F(x) &#x3D; \int^x_a f(t)dt$是[a,b]上的绝对连续函数</p>
-<p>**定理：**设 $f\in L[a,b]$，则 $f(x)$的不定积分 $F(x) &#x3D;\int^x_af(t)dt$在[a,b]上几乎处处可导并且 $F’(x)&#x3D;f(x) \ \ \ a.e.$</p>
-<p>**定理：**若 $f$在[a,b]上满足Lipschitz条件，则 $f \in  AC[a,b]$</p>
-<p>**定理：**设 $f \in AC[a,b]$，并且在[a,b]上 $f’(x)&#x3D;0 \ \ \ a.e.$，则 $f(x)$在[a,b]上为常数。</p>
+<p>（4）设 $f&#92;in AC[a,b]$，则 $f(x)$在[a,b]上几乎处处可导，并且 $f’ &#92;in L[a,b]$</p>
+<p>**定理：**设 $f &#92;in L[a,b]$，则 $f(x)$的不定积分 $F(x) &#x3D; &#92;int^x&#95;a f(t)dt$是[a,b]上的绝对连续函数</p>
+<p>**定理：**设 $f&#92;in L[a,b]$，则 $f(x)$的不定积分 $F(x) &#x3D;&#92;int^x&#95;af(t)dt$在[a,b]上几乎处处可导并且 $F’(x)&#x3D;f(x) &#92; &#92; &#92; a.e.$</p>
+<p>**定理：**若 $f$在[a,b]上满足Lipschitz条件，则 $f &#92;in  AC[a,b]$</p>
+<p>**定理：**设 $f &#92;in AC[a,b]$，并且在[a,b]上 $f’(x)&#x3D;0 &#92; &#92; &#92; a.e.$，则 $f(x)$在[a,b]上为常数。</p>
 <p>Newton-Leibnize公式</p>
-<p>设 $f \in AC[a,b]$，则有</p>
-<p>$f(x)-f(a) &#x3D; \int^x_af’(t)dt \ \ \ (x \in [a,b])$</p>
+<p>设 $f &#92;in AC[a,b]$，则有</p>
+<p>$f(x)-f(a) &#x3D; &#92;int^x&#95;af’(t)dt &#92; &#92; &#92; (x &#92;in [a,b])$</p>
 </div><div class="post-reward"><div class="post-reward-btn" title="赞赏作者"><img src="/assets/images/svg/uc/uc-gift.svg" class="icon noview" alt="Icon"><span></span></div><div class="post-reward-content"><div class="post-reward-text"></div><div class="post-reward-list"><a href="/null" target="_blank">致谢名单</a></div></div></div><div class="post-copyright"><div class="post-copyright-info">本作品由 BTXL 于 2026-09-11 20:50:30 发布</div><div class="post-copyright-link"><span>作品地址：<a href="http://btxl11.github.io/2026/09/11/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0/">实变函数</a></span><button class="copy-text" type="button" data-text="http://btxl11.github.io/2026/09/11/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0/">复制</button></div><div class="post-copyright-detail">除特别声明外，本站作品均采用 <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' title='Attribution-NonCommercial-ShareAlike' target='_blank'>CC BY-NC-SA 4.0</a> 许可协议，转载请注明来自 <a href='/'>BTXL's Blog</a></div><img class="post-copyright-icon noview" src="/assets/images/favicon.jpg" alt="Logo"/></div><div class="post-tail-tags"><a class="post-tail-tags-link" href="/tags/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0/" rel="tag">实变函数</a><a class="post-tail-tags-link" href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag">数学</a></div><div class="post-nav"><a class="post-nav-prev" href="/2026/09/11/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/" title="复变函数">上一篇<span>复变函数</span></a><a class="post-nav-next" href="/2026/09/11/hello-world/" title="Hello World">下一篇<span>Hello World</span></a></div></div><aside id="post-sidebar" status="show"><div id="toc-container"><div class="toc-title"><img src="/assets/images/svg/ta/ta-toc.svg" class="icon noview" alt="Icon"><span>目录</span></div><div class="toc-content" id="toc-div"><ol class="toc-list"><li class="toc-list-item toc-list-level-1"><a class="toc-list-link" href="#%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0"><span class="toc-list-text">实变函数</span></a><ol class="toc-list-child"><li class="toc-list-item toc-list-level-2"><a class="toc-list-link" href="#%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99"><span class="toc-list-text">复习资料</span></a><ol class="toc-list-child"><li class="toc-list-item toc-list-level-3"><a class="toc-list-link" href="#%E7%AC%AC%E4%B8%80%E8%8A%82%E5%A4%8D%E4%B9%A0%E8%AF%BE%E7%9A%84%E5%86%85%E5%AE%B9%EF%BC%9A"><span class="toc-list-text">第一节复习课的内容：</span></a></li><li class="toc-list-item toc-list-level-3"><a class="toc-list-link" href="#%E7%AC%AC%E4%BA%8C%E8%8A%82%E5%A4%8D%E4%B9%A0%E8%AF%BE%E7%9A%84%E5%86%85%E5%AE%B9%EF%BC%9A"><span class="toc-list-text">第二节复习课的内容：</span></a></li></ol></li><li class="toc-list-item toc-list-level-2"><a class="toc-list-link" href="#%E5%BE%80%E5%B9%B4%E8%80%83%E9%A2%98"><span class="toc-list-text">往年考题</span></a></li><li class="toc-list-item toc-list-level-2"><a class="toc-list-link" href="#%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5"><span class="toc-list-text">基础概念</span></a><ol class="toc-list-child"><li class="toc-list-item toc-list-level-3"><a class="toc-list-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0%EF%BC%9A%E9%9B%86%E5%90%88%E4%B8%8E%E7%82%B9%E9%9B%86"><span class="toc-list-text">第一章：集合与点集</span></a></li><li class="toc-list-item toc-list-level-3"><a class="toc-list-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0%EF%BC%9ALebesgue%E6%B5%8B%E5%BA%A6"><span class="toc-list-text">第二章：Lebesgue测度</span></a></li><li class="toc-list-item toc-list-level-3"><a class="toc-list-link" href="#%E7%AC%AC%E4%B8%89%E7%AB%A0%EF%BC%9A%E5%8F%AF%E6%B5%8B%E5%87%BD%E6%95%B0"><span class="toc-list-text">第三章：可测函数</span></a></li><li class="toc-list-item toc-list-level-3"><a class="toc-list-link" href="#%E7%AC%AC%E5%9B%9B%E7%AB%A0%EF%BC%9ALebesgue%E7%A7%AF%E5%88%86"><span class="toc-list-text">第四章：Lebesgue积分</span></a></li><li class="toc-list-item toc-list-level-3"><a class="toc-list-link" href="#%E7%AC%AC%E4%BA%94%E7%AB%A0%EF%BC%9A%E5%BE%AE%E5%88%86%E4%B8%8E%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86"><span class="toc-list-text">第五章：微分与不定积分</span></a></li></ol></li></ol></li></ol></div></div></aside></div></div><div id="toolbar" hide=""><div id="toolbar-setting-container" hide=""><div class="toolbar-item"><button id="tool-color-mode" title="深色模式" type="button"><img src="/assets/images/svg/ta/ta-moon.svg" class="icon noview" alt="Icon"></button></div><div class="toolbar-item"><button class="copy-text" id="tool-share" title="分享" type="button" data-text="http://btxl11.github.io/2026/09/11/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0/"><img src="/assets/images/svg/ta/ta-share.svg" class="icon noview" alt="Icon"></button></div><div class="toolbar-item"><button id="tool-font-size-plus" title="放大字体" type="button"><img src="/assets/images/svg/ta/ta-text-plus.svg" class="icon noview" alt="Icon"></button></div><div class="toolbar-item"><button id="tool-font-size-minus" title="缩小字体" type="button"><img src="/assets/images/svg/ta/ta-text-minus.svg" class="icon noview" alt="Icon"></button></div></div><div class="toolbar-container"><div class="toolbar-item"><button id="tool-setting" title="设置" type="button"><img src="/assets/images/svg/ta/ta-setting.svg" class="icon noview" alt="Icon"></button></div><div class="toolbar-item"><button id="tool-toc" title="目录" type="button"><img src="/assets/images/svg/ta/ta-toc.svg" class="icon noview" alt="Icon"></button></div><div class="toolbar-item"><button id="tool-gototop" title="返回顶部" type="button"><img src="/assets/images/svg/ta/ta-up.svg" class="icon noview" alt="Icon"></button></div></div></div><div class="search-overlay"><div class="search-container"><div class="search-header"><div class="search-title"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" /></svg>
 搜索</div><div class="search-close-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9z" /><path d="M9 8l6 8" /><path d="M15 8l-6 8" /></svg></div></div><div class="search-input-box"><input id="search-input" type="search" placeholder="请输入关键词进行站内搜索……" value="" maxlength="80"/></div><div class="search-result-container"><div class="search-result-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" /></svg></div></div></div></div><div id="music-player"></div></main><footer><div class="footer"><div id="footer-copyright">© 2026 <span>💗</span> <a href="/null">BTXL</a></div><div id="footer-info"><div id="footer-framework">🚀本站由 <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/chanwj/hexo-theme-meow" title="3.3.2" target="_blank">Meow</a> 强力驱动</div><div id="footer-runtime"><span id="runtime" data-startdate="2026-09-11T20:00:00.000Z">🌻已稳定运行.年.月.天</span></div></div></div></footer><div class="scripts"><script>const GLOBALCONFIG = {
   root: '/',
@@ -447,4 +447,17 @@ if ('') {
 <script src="/js/plugins/dist/search.js"></script>
 
 <script src="/js/main.js" type="module"></script>
-</div></body></html>
+</div><!-- hexo injector body_end start --><script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+      ignoreHtmlClass: 'no-mathjax'
+    }
+  };
+</script>
+<script defer src="/js/mathjax/tex-chtml-full.js"></script><!-- hexo injector body_end end --></body></html>
