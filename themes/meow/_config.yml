@@ -355,10 +355,11 @@ album:
 # Music Player Module
 music:
   enable: true # Whether to enable global music player
-  autoplay: false # Whether to play music automatically
+  autoplay: true # Whether to play music automatically
   loop: all # How to loop music, all or one or none
   order: list # Play Music in which order, list or random
   volume: 0.7 # Default volume, 0-1
+  cover: true # Whether to show cover image of music
   # 本歌单里的歌都还没有 .lrc 歌词文件。APlayer 在 lyric: true 时会把 lrc 当 URL 去请求，
   # 没有 lrc 字段就会去请求 "undefined"，每切一首歌都弹一次 "LRC file request fails"。
   # 以后补上 /music/lyric/xxx.lrc 并给 music.yml 的每首歌加上 lrc 字段，再把这里改回 true 即可。
