@@ -37,7 +37,7 @@ global:
   selectable: true # Whether users can select text
   # Change page title when page onblur, false or onblur title text
   onblur_title: "Please Come Back～✧(´▽`ʃ♡ƪ)"
-  mouse_click_style: false # Whether to display colorful heart when clicking
+  mouse_click_style: true # Whether to display colorful heart when clicking
 
 
 # Font Customization
@@ -92,7 +92,7 @@ banner:
   # Banner title
   title:
     enable: true # Whether to show title
-    text: 「 斌斌 」 # Title text
+    text: 「 斌斌的小窝 」 # Title text
   # Banner subtitle at homepage
   subtitle:
     enable: true # Whether to show subtitle
@@ -359,10 +359,13 @@ music:
   loop: all # How to loop music, all or one or none
   order: list # Play Music in which order, list or random
   volume: 0.7 # Default volume, 0-1
-  lyric: true # Whether to display lyric
+  # 本歌单里的歌都还没有 .lrc 歌词文件。APlayer 在 lyric: true 时会把 lrc 当 URL 去请求，
+  # 没有 lrc 字段就会去请求 "undefined"，每切一首歌都弹一次 "LRC file request fails"。
+  # 以后补上 /music/lyric/xxx.lrc 并给 music.yml 的每首歌加上 lrc 字段，再把这里改回 true 即可。
+  lyric: false # Whether to display lyric
   meting: # Meting api config
     api: # Custom Meting api url
-    server: # Music platform: netease, tencent, kugou, xiami, baidu
+    server: kugou # Music platform: netease, tencent, kugou, xiami, baidu
     type: # Audio type: song, playlist, album, search, artist
     id: # Audio source: song id / playlist id / album id / search keyword / artist
 

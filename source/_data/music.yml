@@ -8,14 +8,40 @@
 #   lrc    歌词文件地址（主题配置 music.lyric: true 时会显示歌词）
 #
 # 音频地址必须是 https 或者本站相对路径：
-#   - 本地文件放到 source/music/ 下，这里写 /music/文件名.mp3
+#   - 本地文件放到 source/music/ 下，这里写 /music/文件名.flac
 #   - 外链音频用 https，用 http 的话在 GitHub Pages 上会被浏览器按混合内容拦截
+#   - 文件名里的空格要写成 %20，中文可以直接写
 #
-# 用法：把下面的示例取消注释并改成自己的歌即可。留空数组表示不显示播放器。
+# 注：source/music/kugou/ 里的 .kgg / .kgma 是酷狗会员加密格式（文件头是 DRM 标识，
+#     不是音频数据），浏览器解不出来，所以没有写进这个歌单。
 #
-# - name: 歌名
-#   artist: 歌手
-#   url: /music/xxx.mp3
-#   cover: /images/xxx.jpg
-#   lrc: /music/lyric/xxx.lrc
-[]
+# 留空数组（[]）表示不显示播放器。
+
+- name: '晴天和猫'
+  artist: '花粥'
+  url: '/music/花粥%20-%20晴天和猫.flac'
+  cover: '/music/cover/晴天和猫.jpg'
+- name: '舍离书'
+  artist: '花粥'
+  url: '/music/花粥%20-%20舍离书.flac'
+  cover: '/music/cover/舍离书.jpg'
+- name: '小女司南'
+  artist: '司南'
+  url: '/music/司南%20-%20小女司南.flac'
+  cover: '/music/cover/小女司南.jpg'
+- name: '和好'
+  artist: '王子健'
+  url: '/music/王子健%20-%20和好.flac'
+  cover: '/music/cover/和好.jpg'
+- name: '再遇见'
+  artist: '王子健'
+  url: '/music/王子健%20-%20再遇见.flac'
+  cover: '/music/cover/再遇见.jpg'
+- name: '正好逍遥'
+  artist: '王子健、刘烨溦'
+  url: '/music/王子健、刘烨溦%20-%20正好逍遥.flac'
+  cover: '/music/cover/正好逍遥.jpg'
+- name: '春日游'
+  artist: '小雅之音、椒椒JMJ、漆柚'
+  url: '/music/小雅之音、椒椒JMJ、漆柚%20-%20春日游.flac'
+  cover: '/music/cover/春日游.jpg'

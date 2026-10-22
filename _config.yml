@@ -67,6 +67,21 @@ ignore: null
 marked:
   postAsset: true
 
+mathjax:
+  tags: ams # 或 'ams' (支持公式编号)
+  single_dollars: true # 启用 $...$ 作为行内公式
+  every_page: true # 设为 true 则所有页面都渲染
+  ## 中文教材里常见的简写命令（\ch \sh \isin \exist \sub）MathJax 默认没有定义，
+  ## 不处理会渲染成红色的 "Undefined control sequence"。这里统一映射到标准 LaTeX 命令，
+  ## 之后文章里再写到这些简写也不会报错。
+  extension_options:
+    macros:
+      ch: '\cosh'
+      sh: '\sinh'
+      isin: '\in'
+      exist: '\exists'
+      sub: '\subset'
+
 # Search
 ## Meow 主题的本地搜索依赖 hexo-generator-searchdb，主题会在页面里读取下面的 path
 ## Docs: https://github.com/next-theme/hexo-generator-searchdb
